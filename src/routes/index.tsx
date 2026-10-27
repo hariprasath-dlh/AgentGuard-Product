@@ -69,7 +69,7 @@ function ContinuousHome() {
       <FlowSection
         id="how-it-works"
         aria-label="How AgentGuard Works"
-        className="border-t border-border bg-[#FBF9F5] text-foreground shadow-2xl"
+        className="border-t border-border bg-[#FBF9F5] text-foreground"
         innerClassName="!block !p-0"
       >
         <HowItWorksSection onScrollToNext={() => scrollToSection("getting-started")} />
@@ -79,7 +79,7 @@ function ContinuousHome() {
       <FlowSection
         id="getting-started"
         aria-label="Getting Started"
-        className="border-t border-border bg-background text-foreground shadow-2xl"
+        className="border-t border-border bg-background text-foreground"
         innerClassName="!block !p-0"
       >
         <GettingStartedSection onScrollToNext={() => scrollToSection("sdk-setup")} />
@@ -89,7 +89,7 @@ function ContinuousHome() {
       <FlowSection
         id="sdk-setup"
         aria-label="Python SDK Setup"
-        className="border-t border-border bg-[#F8F6F1] text-foreground shadow-2xl"
+        className="border-t border-border bg-[#F8F6F1] text-foreground"
         innerClassName="!block !p-0"
       >
         <SdkSetupSection onScrollToNext={() => scrollToSection("integration")} />
@@ -99,7 +99,7 @@ function ContinuousHome() {
       <FlowSection
         id="integration"
         aria-label="AgentGuard Integration"
-        className="border-t border-border bg-background text-foreground shadow-2xl"
+        className="border-t border-border bg-background text-foreground"
         innerClassName="!block !p-0"
       >
         <IntegrationSection onScrollToNext={() => scrollToSection("faq")} />
@@ -109,7 +109,7 @@ function ContinuousHome() {
       <FlowSection
         id="faq"
         aria-label="Frequently Asked Questions"
-        className="border-t border-border bg-background text-foreground shadow-2xl"
+        className="border-t border-border bg-background text-foreground"
         innerClassName="!block !p-0"
       >
         <FaqSection onScrollToTop={() => scrollToSection("home")} />
